@@ -17,590 +17,434 @@
 		</o:OfficeDocumentSettings>
 		</xml><![endif]-->
 		<title>Hayden LA</title>
-		<meta charset="UTF-8" />
 		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-		<meta name="format-detection" content="telephone=no"/>
+		<meta name="format-detection" content="telephone=no" />
 
-		<link rel="preconnect" href="https://fonts.googleapis.com">
-		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-		<link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700&family=PT+Sans:wght@400;700&display=swap" rel="stylesheet">
-		<style type="text/css">
-		/*********************
-		OBLIGATORY EMAIL STYLES
-		*********************/
-		.ReadMsgBody{width:100%;} .ExternalClass{width:100%;}
-		.ExternalClass, .ExternalClass p, .ExternalClass span, .ExternalClass font, .ExternalClass td, .ExternalClass div {line-height: 100%;}
-		img{display: block;}
-		body{padding:0; width:100% !important;}
-		/* BYE BYE BLUE LINKS + ORPHAN STYLE */
-		.appleFooter a {color:#999999 !important; text-decoration: none !important;}
-		.appleLink a {color:#ffffff !important; text-decoration: none !important;}
-		.padding_top {padding-top: 95px !important;}
-		#outlook a { padding:0; }
-		body{-webkit-text-size-adjust:100%; -ms-text-size-adjust:100%; }
-		.ReadMsgBody { width: 100%; }
-		.ExternalClass {width:100%;}
-		.backgroundTable {margin:0 auto; padding:0; width:100% !important;}
-		.ExternalClass * {line-height: 115%;}
-		/*********************
-		End Reset
-		*********************/
-		@charset "utf-8";
-		/********** CSS Document ***********/
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" />
 		
-		/*
-		********************
-		Framework - EDIT THIS AND SUFFER THE CONSEQUENCES!
-		********************
-		*/
-		.weight_100 {
-		font-weight: 100;
-		}
-		.weight_200 {
-		font-weight: 200;
-		}
-		.weight_300 {
-		font-weight: 300;
-		}
-		.weight_400 {
-		font-weight: 400;
-		}
-		.weight_500 {
-		font-weight: 500;
-		}
-		.weight_600 {
-		font-weight: 600;
-		}
-		.weight_700 {
-		font-weight: 700;
-		}
-		.weight_800 {
-		font-weight: 800;
-		}
-		.weight_900 {
-		font-weight: 900;
-		}
-		.uppercase {
-		text-transform: uppercase;
-		}
-		.underline {
-		text-decoration: underline;
-		}
-		.italic {
-		font-style: italic;
-		}
-		.block {
-		display: block !important;
-		}
-		.space_class {
-		font-size: 1px;
-		line-height: 1px;
-		}
-		/*
-		********************
-		Almost There, declaring some important things now
-		********************
-		*/
-		body {
-		background-color: #fff;
-		font-family: 'Muli', sans-serif;
-		font-size: 14px;
-		margin: 0 auto;
-		}
-		a {
-		text-decoration: none;
-		}
-		.desktop_hide {
-		max-height: 0px;
-		font-size: 0;
-		display: none;
-		}
-		.align_justify {
-		text-align: justify;
-			text-align-last: center;
-		}
-		.br_hide {
-		font-size: 0;
-		display: none;
-		max-height: 0px;
-		}
-		.desktop_hide_img {
-		max-height: 0;
-		width: 0;
-		display: none;
-		visibility: hidden;
-		}
-		/*
-		===========================
-		Old wrapper table deprecated. Will use 2 different classes, one for the standard wrapper table
-		and one for the cases where you have a background image. This is done to massively decrease
-		the size of the email file
-		===========================
-		*/
-		.wrapper_table{
-		max-width: 800px;
-		}
-		.wrapper_table_wt_background {
-		background-size: 100% 100%;
-		background-position: center top;
-		background-repeat: no-repeat;
-		max-width: 800px;
-		}
-		.display_table_cell {
-		display:table-cell !important;
-		}
-			.space_class_br {
-			font-size: 0px;
-			line-height: 0px;
-			width: 0px;
-			display: block;
-			}
-		/*
-		===========================
-		Responsive Clases
-		===========================
-		*/
 		
-		@media (max-width: 461px) {
-			/*Global Style*/
-				body.responsive {
-				margin: 0 auto !important;
-				width: 100% !important;
-			}
-			img {
-				height: auto !important;
-				max-width: 100% !important;
-			}
-			img.fullwidth {
-			width: auto !important;
-			max-width: 100% !important;
-			}
-			.desktop_hide {
-				display: block !important;
-				max-width: 100% !important;
-				max-height: 100% !important;
-				}
-			
-				.br_hide {
-				display: block !important;
-				max-width: 100% !important;
-				max-height: 0 !important;
-				}
-		.lt_16 {
-		letter-spacing: -0.16px !important;
-		}
-			/*Module Width*/
-				table.wrapper_table {
-					background-size: 100% 100% !important;
-					width:100vw !important;
-				}
-				table.wrapper_table .content {
-					width:100vw !important; height: auto;
-				}
-			table.wrapper_table .padding {
-				width: 15px !important;
-			}
-			table.wrapper_table .padding33 {
-				width: 33px !important;
-			}
-			table.wrapper_table .padding2 {
-				width: 24px !important;
-			}
-			table.wrapper_table .padding3 {
-				width: 32px !important;
-			}
-				table.wrapper_table .padding4 {
-				width: 10px !important;
-			}
-			table.wrapper_table .content_row {
-				/*content == padding + content_row + padding*/
-				width: 290px !important;
-			}
-			table.wrapper_table .content_row_inner {
-				/*content_row == padding + content_row_inner + padding*/
-				width: 260px !important;
-			}
-			/*Position Style*/
-			table.wrapper_table .stacked_fullwidth {
-				width: 100%;
-				display:block !important;
-			}
-			table.wrapper_table .noborder {
-				border: 0 !important;
-			}
-			table.wrapper_table .nomobile {
-				display: none !important;
-			}
-			.nobg_mobile {
-			background-image: none !important;
-			}
-			.mob_justify {
-				text-align: justify;
-					text-align-last: center;
-			}
-			table.wrapper_table .header_group {
-		display: table-header-group !important;
-		margin-bottom: 20px !important;
-		}
-		table.wrapper_table .footer_group {
-		display: table-footer-group !important;
-		}
-			table.wrapper_table .mob_center {
-			text-align: center !important;
-			margin: 0 auto !important;
-			}
-			table.wrapper_table .mob_left {
-			text-align: left !important;
-			margin: 0 auto !important;
-			}
-			table.mobile_centered_table {
-				margin: 0 auto !important;
-				text-align: center !important;
-			}
-			/*Padding Top*/
-			table.wrapper_table .mobpt_10 {
-			padding-top: 10px !important;
-			}
-			table.wrapper_table .mobp_0 {
-			padding: 0px !important;
-			}
-			/*Margin Top*/
-			table.wrapper_table .mobmt_20 {
-			margin-top: 20px !important;
-			}
-			/*Height*/
-				table.wrapper_table .height_1 {
-			height: 1px;
-			}
-				table.wrapper_table .height_2 {
-		height: 2px;
-		}
-		table.wrapper_table .height_3 {
-		height: 3px;
-		}
-		table.wrapper_table .height_4 {
-		height: 4px;
-		}
-		table.wrapper_table .height_5 {
-		height: 5px;
-		}
-		table.wrapper_table .height_6 {
-		height: 6px;
-		}
-		table.wrapper_table .height_7 {
-		height: 7px;
-		}
-		table.wrapper_table .height_8 {
-		height: 8px;
-		}
-		table.wrapper_table .height_9 {
-		height: 9px;
-		}
-		table.wrapper_table .height_10 {
-		height: 10px;
-		}
-		table.wrapper_table .height_18 {
-		height: 18px;
-		}
-
-			table.wrapper_table .height_20 {
-			height: 20px;
-			}
-			table.wrapper_table .height_30 {
-			height: 30px;
-			}
-			table.wrapper_table .height_40 {
-			height: 40px;
-			}
-			table.wrapper_table .height_50 {
-			height: 50px;
-			}
-			table.wrapper_table .height_60 {
-			height: 60px;
-			}
-			table.wrapper_table .height_64 {
-			height: 64px;
-			}
-			table.wrapper_table .height_70 {
-			height: 70px;
-			}
-			table.wrapper_table .height_54 {
-			height: 54px;
-			}
-			table.wrapper_table .height_80 {
-			height: 80px;
-			}
-			table.wrapper_table .height_90 {
-			height: 90px;
-			}
-			table.wrapper_table .height_95 {
-			height: 95px;
-			}
-			
-			/*Fonts*/
-			table.wrapper_table .mob_bigheading {
-			font-size: 40px !important;
-			}
-			table.wrapper_table .mob_heading {
-			font-size: 36px !important;
-			}
-				table.wrapper_table .mob_heading35 {
-			font-size: 35px !important;
-			}
-			table.wrapper_table .mob_subheading {
-			font-size: 15px !important;
-			}
-			table.wrapper_table .mob_subheading2 {
-			font-size: 25px !important;
-			}
-			table.wrapper_table .mob_paragraph {
-			font-size: 16px !important;
-			}
-			/*Line Height*/
-		
-				table.wrapper_table .lh_44 {
-		line-height: 44px !important;
-		}
-		table.wrapper_table .lh_bigheading {
-		line-height: 45px !important;
-		}
-				table.wrapper_table .lh_bigheading3 {
-		line-height: 40px !important;
-		}
-			table.wrapper_table .lh_heading {
-			line-height: 36px !important;
-			}
-			table.wrapper_table .lh_heading42 {
-			line-height: 42px !important;
-			}
-			table.wrapper_table .lh_subheading {
-			line-height: 35px !important;
-			}
-			table.wrapper_table .lh_paragraph {
-			line-height: 30px !important;
-			}
-			table.wrapper_table .lh_paragraph5 {
-			line-height: 24px !important;
-			}
-			table.wrapper_table .lt_0 {
-			letter-spacing: 0px !important;
-			}
-			table.wrapper_table .lt_1 {
-			letter-spacing: -0.2px !important;
-			}
-			table.wrapper_table .lt_01 {
-			letter-spacing: -1px !important;
-			}
-			
-			/*Width*/
-				
-			table.wrapper_table .width_145 {
-			width: 145px !important;
-			}
-			table.wrapper_table .width_186 {
-			width: 186px !important;
-			}
-			table.wrapper_table .width_18 {
-			width: 18px !important;
-			}
-			table.wrapper_table .width_191 {
-			width: 191px !important;
-			}
-			table.wrapper_table .width_3 {
-			width: 3px !important;
-			}
-			table.wrapper_table .mob_w5 {
-			width: 5px !important;
-			}
-			table.wrapper_table .mob_w10 {
-			width: 10px !important;
-			}
-			table.wrapper_table .width_27 {
-			width: 19px !important;
-			}
-			table.wrapper_table .width_31 {
-			width: 31px !important;
-			}
-			table.wrapper_table .width_46 {
-			width: 46px !important;
-			}
-			table.wrapper_table .width_66 {
-			width: 66px !important;
-			}
-			table.wrapper_table .width_88 {
-			width: 88px !important;
-			}
-			table.wrapper_table .width_180 {
-			width: 180px !important;
-			}
-			table.wrapper_table .width_205 {
-			width: 205px !important;
-			}
-			table.wrapper_table .width_208 {
-			width: 208px !important;
-			}
-			table.wrapper_table .width_226 {
-			width: 226px !important;
-			}
-			table.wrapper_table .width_235 {
-			width: 235px !important;
-			}
-			table.wrapper_table .width_242 {
-			width: 242px !important;
-			}
-			table.wrapper_table .width_245 {
-			width: 245px !important;
-			}
-			table.wrapper_table .width_250 {
-			width: 250px !important;
-			}
-			table.wrapper_table .width_257 {
-			width: 257px !important;
-			}
-			table.wrapper_table .width_266 {
-			width: 266px !important;
-			}
-			table.wrapper_table .width_282 {
-			width: 282px !important;
-			}
-			table.wrapper_table .width_284 {
-			width: 284px !important;
-			}
-			table.wrapper_table .width_287 {
-			width: 287px !important;
-			}
-			table.wrapper_table .width_271 {
-			width: 271px !important;
-			}
-			table.wrapper_table .width_277 {
-			width: 277px !important;
-			}
-			table.wrapper_table .width_288 {
-			width: 288px !important;
-			}
-			table.wrapper_table .width_292 {
-			width: 292px !important;
-			}
-			table.wrapper_table .width_296 {
-			width: 296px !important;
-			}
-			table.wrapper_table .width_299 {
-			width: 299px !important;
-			}
-			table.wrapper_table .width_316 {
-			width: 310px !important;
-			}
-			table.wrapper_table .mob_w315 {
-			width: 315px !important;
-			}
-			table.wrapper_table .mob_w323 {
-			width: 323px !important;
-			}
-			table.wrapper_table .width_302 {
-			width: 302px !important;
-			}
-			table.wrapper_table .width_304 {
-			width: 304px !important;
-			}
-			table.wrapper_table .width_308 {
-			width: 308px !important;
-			}
-			table.wrapper_table .width_325 {
-			width: 325px !important;
-			}
-			table.wrapper_table .width_335 {
-			width: 335px !important;
-			}
-			table.wrapper_table .width_340 {
-			width: 340px !important;
-			}
-			}
-			
-				/* iphone 5se */
-			@media (max-width: 321px){
-			table.wrapper_table .se_font {
-			font-size: 16px !important;
-			}
-			table.wrapper_table .se_font2 {
-			font-size: 13px !important;
-			}
-			table.wrapper_table .se_fs40{
-			font-size: 38px !important;
-			}
-			table.wrapper_table .se_w290 {
-			width: 290px !important;
-			}
-			table.wrapper_table .se_w240 {
-			width: 240px !important;
-			}
-			table.wrapper_table .se_w245 {
-			width: 245px !important;
-			}
-			table.wrapper_table .se_w230 {
-			width: 230px !important;
-			}
-			table.wrapper_table .se_w235 {
-			width: 235px !important;
-			}
-			table.wrapper_table .padding33 {
-			width: 25px !important;
-			}
-			}
-			@media (max-width: 491px) {
-			u ~ div .wrapper_table .se_font {
-			font-size: 13px !important;
-			}
-			u ~ div .wrapper_table .mob_heading {
-			font-size: 38px !important;
-			}
-			u ~ div .wrapper_table .padding33 {
-			width: 25px !important;
-			}
-			}
-		
-		/*
-		********************
-		It's safe now, you can start editing.
-		********************
-		*/
-		.opensans {
-			font-family: 'Open Sans', sans-serif;
-		}
-			.ptsans {
-				font-family: 'PT Sans', sans-serif;
-			}
-			.whitetext {
-				color: #ffffff;
-			}
-			.graytext {
-				color: #4a5860;
-			}
-			.blacktext {
-				color: #000000;
-			}
-			.greentext {
-				color: #048767;
-			}
-			.whitebg{
-				background-color: #FFF3E3;
-			}
-			.graybg {
-				background-color: #dfd6ca;
-			}
-			.graytext {
-				color: #4f5057;
-			}
-		</style>
-	</head>
-	<body>
+	<style type="text/css">@font-face {
+font-family: 'Open Sans'; font-style: normal; font-weight: 300; font-stretch: normal; font-display: swap; src: url('https://fonts.gstatic.com/s/opensans/v28/memSYaGs126MiZpBA-UvWbX2vVnXBbObj2OVZyOOSr4dVJWUgsiH0C4n.ttf') format('truetype');
+}
+@font-face {
+font-family: 'Open Sans'; font-style: normal; font-weight: 400; font-stretch: normal; font-display: swap; src: url('https://fonts.gstatic.com/s/opensans/v28/memSYaGs126MiZpBA-UvWbX2vVnXBbObj2OVZyOOSr4dVJWUgsjZ0C4n.ttf') format('truetype');
+}
+@font-face {
+font-family: 'Open Sans'; font-style: normal; font-weight: 500; font-stretch: normal; font-display: swap; src: url('https://fonts.gstatic.com/s/opensans/v28/memSYaGs126MiZpBA-UvWbX2vVnXBbObj2OVZyOOSr4dVJWUgsjr0C4n.ttf') format('truetype');
+}
+@font-face {
+font-family: 'Open Sans'; font-style: normal; font-weight: 600; font-stretch: normal; font-display: swap; src: url('https://fonts.gstatic.com/s/opensans/v28/memSYaGs126MiZpBA-UvWbX2vVnXBbObj2OVZyOOSr4dVJWUgsgH1y4n.ttf') format('truetype');
+}
+@font-face {
+font-family: 'Open Sans'; font-style: normal; font-weight: 700; font-stretch: normal; font-display: swap; src: url('https://fonts.gstatic.com/s/opensans/v28/memSYaGs126MiZpBA-UvWbX2vVnXBbObj2OVZyOOSr4dVJWUgsg-1y4n.ttf') format('truetype');
+}
+@font-face {
+font-family: 'PT Sans'; font-style: normal; font-weight: 400; font-display: swap; src: url('https://fonts.gstatic.com/s/ptsans/v17/jizaRExUiTo99u79P0U.ttf') format('truetype');
+}
+@font-face {
+font-family: 'PT Sans'; font-style: normal; font-weight: 700; font-display: swap; src: url('https://fonts.gstatic.com/s/ptsans/v17/jizfRExUiTo99u79B_mh4Ok.ttf') format('truetype');
+}
+.ReadMsgBody {
+width: 100%;
+}
+.ExternalClass {
+width: 100%;
+}
+.ExternalClass {
+line-height: 100%;
+}
+img {
+display: block;
+}
+body {
+padding: 0; width: 100% !important;
+}
+body {
+-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%;
+}
+.ReadMsgBody {
+width: 100%;
+}
+.ExternalClass {
+width: 100%;
+}
+body {
+background-color: #fff; font-family: 'Muli', sans-serif; font-size: 14px; margin: 0 auto;
+}
+@media (max-width: 461px) {
+  body.responsive {
+    margin: 0 auto !important; width: 100% !important;
+  }
+  img {
+    height: auto !important; max-width: 100% !important;
+  }
+  img.fullwidth {
+    width: auto !important; max-width: 100% !important;
+  }
+  .desktop_hide {
+    display: block !important; max-width: 100% !important; max-height: 100% !important;
+  }
+  .br_hide {
+    display: block !important; max-width: 100% !important; max-height: 0 !important;
+  }
+  .lt_16 {
+    letter-spacing: -0.16px !important;
+  }
+  table.wrapper_table {
+    background-size: 100% 100% !important; width: 100vw !important;
+  }
+  table.wrapper_table .content {
+    width: 100vw !important; height: auto;
+  }
+  table.wrapper_table .padding {
+    width: 15px !important;
+  }
+  table.wrapper_table .padding33 {
+    width: 33px !important;
+  }
+  table.wrapper_table .padding2 {
+    width: 24px !important;
+  }
+  table.wrapper_table .padding3 {
+    width: 32px !important;
+  }
+  table.wrapper_table .padding4 {
+    width: 10px !important;
+  }
+  table.wrapper_table .content_row {
+    width: 290px !important;
+  }
+  table.wrapper_table .content_row_inner {
+    width: 260px !important;
+  }
+  table.wrapper_table .stacked_fullwidth {
+    width: 100%; display: block !important;
+  }
+  table.wrapper_table .noborder {
+    border: 0 !important;
+  }
+  table.wrapper_table .nomobile {
+    display: none !important;
+  }
+  .nobg_mobile {
+    background-image: none !important;
+  }
+  .mob_justify {
+    text-align: justify; text-align-last: center;
+  }
+  table.wrapper_table .header_group {
+    display: table-header-group !important; margin-bottom: 20px !important;
+  }
+  table.wrapper_table .footer_group {
+    display: table-footer-group !important;
+  }
+  table.wrapper_table .mob_center {
+    text-align: center !important; margin: 0 auto !important;
+  }
+  table.wrapper_table .mob_left {
+    text-align: left !important; margin: 0 auto !important;
+  }
+  table.mobile_centered_table {
+    margin: 0 auto !important; text-align: center !important;
+  }
+  table.wrapper_table .mobpt_10 {
+    padding-top: 10px !important;
+  }
+  table.wrapper_table .mobp_0 {
+    padding: 0px !important;
+  }
+  table.wrapper_table .mobmt_20 {
+    margin-top: 20px !important;
+  }
+  table.wrapper_table .height_1 {
+    height: 1px;
+  }
+  table.wrapper_table .height_2 {
+    height: 2px;
+  }
+  table.wrapper_table .height_3 {
+    height: 3px;
+  }
+  table.wrapper_table .height_4 {
+    height: 4px;
+  }
+  table.wrapper_table .height_5 {
+    height: 5px;
+  }
+  table.wrapper_table .height_6 {
+    height: 6px;
+  }
+  table.wrapper_table .height_7 {
+    height: 7px;
+  }
+  table.wrapper_table .height_8 {
+    height: 8px;
+  }
+  table.wrapper_table .height_9 {
+    height: 9px;
+  }
+  table.wrapper_table .height_10 {
+    height: 10px;
+  }
+  table.wrapper_table .height_18 {
+    height: 18px;
+  }
+  table.wrapper_table .height_20 {
+    height: 20px;
+  }
+  table.wrapper_table .height_30 {
+    height: 30px;
+  }
+  table.wrapper_table .height_40 {
+    height: 40px;
+  }
+  table.wrapper_table .height_50 {
+    height: 50px;
+  }
+  table.wrapper_table .height_60 {
+    height: 60px;
+  }
+  table.wrapper_table .height_64 {
+    height: 64px;
+  }
+  table.wrapper_table .height_70 {
+    height: 70px;
+  }
+  table.wrapper_table .height_54 {
+    height: 54px;
+  }
+  table.wrapper_table .height_80 {
+    height: 80px;
+  }
+  table.wrapper_table .height_90 {
+    height: 90px;
+  }
+  table.wrapper_table .height_95 {
+    height: 95px;
+  }
+  table.wrapper_table .mob_bigheading {
+    font-size: 40px !important;
+  }
+  table.wrapper_table .mob_heading {
+    font-size: 36px !important;
+  }
+  table.wrapper_table .mob_heading35 {
+    font-size: 35px !important;
+  }
+  table.wrapper_table .mob_subheading {
+    font-size: 15px !important;
+  }
+  table.wrapper_table .mob_subheading2 {
+    font-size: 25px !important;
+  }
+  table.wrapper_table .mob_paragraph {
+    font-size: 16px !important;
+  }
+  table.wrapper_table .lh_44 {
+    line-height: 44px !important;
+  }
+  table.wrapper_table .lh_bigheading {
+    line-height: 45px !important;
+  }
+  table.wrapper_table .lh_bigheading3 {
+    line-height: 40px !important;
+  }
+  table.wrapper_table .lh_heading {
+    line-height: 36px !important;
+  }
+  table.wrapper_table .lh_heading42 {
+    line-height: 42px !important;
+  }
+  table.wrapper_table .lh_subheading {
+    line-height: 35px !important;
+  }
+  table.wrapper_table .lh_paragraph {
+    line-height: 30px !important;
+  }
+  table.wrapper_table .lh_paragraph5 {
+    line-height: 24px !important;
+  }
+  table.wrapper_table .lt_0 {
+    letter-spacing: 0px !important;
+  }
+  table.wrapper_table .lt_1 {
+    letter-spacing: -0.2px !important;
+  }
+  table.wrapper_table .lt_01 {
+    letter-spacing: -1px !important;
+  }
+  table.wrapper_table .width_145 {
+    width: 145px !important;
+  }
+  table.wrapper_table .width_186 {
+    width: 186px !important;
+  }
+  table.wrapper_table .width_18 {
+    width: 18px !important;
+  }
+  table.wrapper_table .width_191 {
+    width: 191px !important;
+  }
+  table.wrapper_table .width_3 {
+    width: 3px !important;
+  }
+  table.wrapper_table .mob_w5 {
+    width: 5px !important;
+  }
+  table.wrapper_table .mob_w10 {
+    width: 10px !important;
+  }
+  table.wrapper_table .width_27 {
+    width: 19px !important;
+  }
+  table.wrapper_table .width_31 {
+    width: 31px !important;
+  }
+  table.wrapper_table .width_46 {
+    width: 46px !important;
+  }
+  table.wrapper_table .width_66 {
+    width: 66px !important;
+  }
+  table.wrapper_table .width_88 {
+    width: 88px !important;
+  }
+  table.wrapper_table .width_180 {
+    width: 180px !important;
+  }
+  table.wrapper_table .width_205 {
+    width: 205px !important;
+  }
+  table.wrapper_table .width_208 {
+    width: 208px !important;
+  }
+  table.wrapper_table .width_226 {
+    width: 226px !important;
+  }
+  table.wrapper_table .width_235 {
+    width: 235px !important;
+  }
+  table.wrapper_table .width_242 {
+    width: 242px !important;
+  }
+  table.wrapper_table .width_245 {
+    width: 245px !important;
+  }
+  table.wrapper_table .width_250 {
+    width: 250px !important;
+  }
+  table.wrapper_table .width_257 {
+    width: 257px !important;
+  }
+  table.wrapper_table .width_266 {
+    width: 266px !important;
+  }
+  table.wrapper_table .width_282 {
+    width: 282px !important;
+  }
+  table.wrapper_table .width_284 {
+    width: 284px !important;
+  }
+  table.wrapper_table .width_287 {
+    width: 287px !important;
+  }
+  table.wrapper_table .width_271 {
+    width: 271px !important;
+  }
+  table.wrapper_table .width_277 {
+    width: 277px !important;
+  }
+  table.wrapper_table .width_288 {
+    width: 288px !important;
+  }
+  table.wrapper_table .width_292 {
+    width: 292px !important;
+  }
+  table.wrapper_table .width_296 {
+    width: 296px !important;
+  }
+  table.wrapper_table .width_299 {
+    width: 299px !important;
+  }
+  table.wrapper_table .width_316 {
+    width: 310px !important;
+  }
+  table.wrapper_table .mob_w315 {
+    width: 315px !important;
+  }
+  table.wrapper_table .mob_w323 {
+    width: 323px !important;
+  }
+  table.wrapper_table .width_302 {
+    width: 302px !important;
+  }
+  table.wrapper_table .width_304 {
+    width: 304px !important;
+  }
+  table.wrapper_table .width_308 {
+    width: 308px !important;
+  }
+  table.wrapper_table .width_325 {
+    width: 325px !important;
+  }
+  table.wrapper_table .width_335 {
+    width: 335px !important;
+  }
+  table.wrapper_table .width_340 {
+    width: 340px !important;
+  }
+}
+@media (max-width: 321px) {
+  table.wrapper_table .se_font {
+    font-size: 16px !important;
+  }
+  table.wrapper_table .se_font2 {
+    font-size: 13px !important;
+  }
+  table.wrapper_table .se_fs40 {
+    font-size: 38px !important;
+  }
+  table.wrapper_table .se_w290 {
+    width: 290px !important;
+  }
+  table.wrapper_table .se_w240 {
+    width: 240px !important;
+  }
+  table.wrapper_table .se_w245 {
+    width: 245px !important;
+  }
+  table.wrapper_table .se_w230 {
+    width: 230px !important;
+  }
+  table.wrapper_table .se_w235 {
+    width: 235px !important;
+  }
+  table.wrapper_table .padding33 {
+    width: 25px !important;
+  }
+}
+@media (max-width: 491px) {
+  u ~ div .wrapper_table .se_font {
+    font-size: 13px !important;
+  }
+  u ~ div .wrapper_table .mob_heading {
+    font-size: 38px !important;
+  }
+  u ~ div .wrapper_table .padding33 {
+    width: 25px !important;
+  }
+}
+</style></head>
+	<body style="width: 100% !important; -webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; font-family: 'Muli', sans-serif; font-size: 14px; margin: 0 auto; padding: 0;" bgcolor="#fff">
 	<table align="center" cellpadding="0" cellspacing="0" border="0" width="100%">
 			<tr>
 				<td valign="top" align="center">
-					<table class="wrapper_table" cellpadding="0" cellspacing="0" border="0" width="800" style="table-layout: fixed; max-width: 800px;" >
+					<table class="wrapper_table" cellpadding="0" cellspacing="0" border="0" width="800" style="table-layout: fixed; max-width: 800px;">
 						<tr>
-							<td class="content"  align="center" width="800" height="auto" valign="top" >
+							<td class="content" align="center" width="800" height="auto" valign="top">
 								<!--[if gte mso 9]>
 									<v:rect xmlns:v="urn:schemas-microsoft-com:vml" fill="true" stroke="false" style="width:800px;height:204px;">
 									<v:textbox inset="0,0,0,0">
@@ -617,32 +461,34 @@
 										</td>
 									</tr>
 									<tr>
-										<td class="padding" >
+										<td class="padding">
 										</td>
 										<td>
 											<table cellpadding="0" cellspacing="0" border="0" width="100%" class="nomobile">
 												<tr>
 													<td align="center">
 														<a href="/" target="_blank" style="display: block !important; text-decoration: none;">
-															<img src="https://res.cloudinary.com/pdr-app/image/upload/v1651841091/test-1-code-crew/main-logo.png" style="font-size: 20px; display: block; width: auto" alt="Hayden logo" align="middle" border="0" />
+															<img src="https://res.cloudinary.com/pdr-app/image/upload/v1651841091/test-1-code-crew/main-logo.png" style="font-size: 20px; display: block; width: auto;" alt="Hayden logo" align="middle" border="0" />
 														</a>
 													</td>
 												</tr>
 											</table>
-											<table cellpadding="0" cellspacing="0" border="0" width="100%" class="desktop_hide mobile_centered_table">
-												<tbody style="display: block">
-												<tr height="48"></tr>
+											<table cellpadding="0" cellspacing="0" border="0" width="100%" class="desktop_hide mobile_centered_table" style="max-height: 0px; font-size: 0; display: none;">
+												<tbody style="display: block;">
+												<tr>
+													<td height="48"></td>
+												</tr>
 												<tr style="display: block; width: 151px; margin: 0 auto;">
 													<td align="center">
 														<a href="/" target="_blank" style="display: block !important; text-decoration: none;">
-															<img src="https://res.cloudinary.com/pdr-app/image/upload/v1651841091/test-1-code-crew/main-logo.png" style="font-size: 20px; display: block; width: auto" alt="Hayden logo" align="middle" border="0" />
+															<img src="https://res.cloudinary.com/pdr-app/image/upload/v1651841091/test-1-code-crew/main-logo.png" style="font-size: 20px; display: block; width: auto;" alt="Hayden logo" align="middle" border="0" />
 														</a>
 													</td>
 												</tr>
 												</tbody>
 											</table>
 										</td>
-										<td  class="padding">
+										<td class="padding">
 										</td>
 									</tr>
 									<tr>
@@ -667,25 +513,25 @@
 		<table class="wrapper_table" align="center" cellpadding="0" cellspacing="0" border="0" width="800" style="max-width: 800px;">
 			<tr>
 				<td class="content" width="800" align="center" bgcolor="#fff">
-					<table cellpadding="0" cellspacing="0" border="0" width="100%" style="position: relative">
+					<table cellpadding="0" cellspacing="0" border="0" width="100%" style="position: relative;">
 						<tr>
 							<td align="center">
 								<table cellpadding="0" cellspacing="0" border="0" class="nomobile">
-									<tr height="38"></tr>
+									<tr><td height="38"></td></tr>
 									<tr>
 										<td class="padding"></td>
 										<td width="8" class="width_18"></td>
 										<td align="center">
-											<a href="/" target="_blank">
-												<img src="https://res.cloudinary.com/pdr-app/image/upload/v1651841090/test-1-code-crew/hero-image.png" style="position: relative; z-index: 2;" alt="hero-image" />
-												<img src="https://res.cloudinary.com/pdr-app/image/upload/v1651841091/test-1-code-crew/hero-background.png" style="font-size: 20px; display: block; color: #4f5057; position: absolute; top: 9px; left: 99px; z-index: 0; width: auto;" alt="hero-background" align="middle"  width="auto" border="0"/>
+											<a href="/" target="_blank" style="text-decoration: none;">
+												<img src="https://res.cloudinary.com/pdr-app/image/upload/v1651841090/test-1-code-crew/hero-image.png" style="position: relative; z-index: 2; display: block;" alt="hero-image" />
+												<img src="https://res.cloudinary.com/pdr-app/image/upload/v1651841091/test-1-code-crew/hero-background.png" style="font-size: 20px; display: block; color: #4f5057; position: absolute; top: 9px; left: 99px; z-index: 0; width: auto;" alt="hero-background" align="middle" width="auto" border="0" />
 											</a>
 										</td>
 										<td class="padding"></td>
 									</tr>
 								</table>
-								<table cellpadding="0" cellspacing="0" border="0" class="desktop_hide">
-									<tr height="25"></tr>
+								<table cellpadding="0" cellspacing="0" border="0" class="desktop_hide" style="max-height: 0px; font-size: 0; display: none;">
+									<tr><td height="25"></td></tr>
 									<tr>
 										<td class="padding"></td>
 										<td width="8" class="width_18 nomobile"></td>
@@ -694,8 +540,8 @@
 												<tr>
 													<td width="54"></td>
 													<td>
-														<a href="/" target="_blank">
-															<img src="https://res.cloudinary.com/pdr-app/image/upload/v1651841090/test-1-code-crew/hero-image.png" style="position: relative; z-index: 2;" alt="hero-image"  />
+														<a href="/" target="_blank" style="text-decoration: none;">
+															<img src="https://res.cloudinary.com/pdr-app/image/upload/v1651841090/test-1-code-crew/hero-image.png" style="position: relative; z-index: 2; display: block;" alt="hero-image" />
 														</a>
 													</td>
 													<td width="46"></td>
@@ -705,8 +551,8 @@
 												<tr>
 													<td width="18"></td>
 													<td>
-														<a href="/" target="_blank">
-															<img src="https://res.cloudinary.com/pdr-app/image/upload/v1651841091/test-1-code-crew/hero-background.png"  style="font-size: 20px; display: block; color: #4f5057; width: auto;" alt="hero-background" align="middle"  width="auto" border="0" />
+														<a href="/" target="_blank" style="text-decoration: none;">
+															<img src="https://res.cloudinary.com/pdr-app/image/upload/v1651841091/test-1-code-crew/hero-background.png" style="font-size: 20px; display: block; color: #4f5057; width: auto;" alt="hero-background" align="middle" width="auto" border="0" />
 														</a>
 													</td>
 												</tr>
@@ -725,13 +571,13 @@
 								<table cellpadding="0" cellspacing="0" border="0">
 									<tr>
 										<td>
-											<table cellpadding="0" cellspacing="0" border="0" >
+											<table cellpadding="0" cellspacing="0" border="0">
 												<tr>
-													<td width="17" class="desktop_hide"></td>
-													<td class="" style="text-align: center;" width="auto">
-														<img src="https://res.cloudinary.com/pdr-app/image/upload/v1651935108/test-1-code-crew/hero-heading.png" alt="hero-heading" style="width: auto; margin: 0 auto;"/>
+													<td width="17" class="desktop_hide" style="max-height: 0px; font-size: 0; display: none;"></td>
+													<td class="" style="" width="auto" align="center">
+														<img src="https://res.cloudinary.com/pdr-app/image/upload/v1651935108/test-1-code-crew/hero-heading.png" alt="hero-heading" style="width: auto; display: block; margin: 0 auto;" />
 													</td>
-													<td width="17" class="desktop_hide"></td>
+													<td width="17" class="desktop_hide" style="max-height: 0px; font-size: 0; display: none;"></td>
 												</tr>
 											</table>
 										</td>
@@ -746,13 +592,13 @@
 							<td align="center">
 								<table cellpadding="0" cellspacing="0" border="0">
 									<tr>
-										<td class="desktop_hide" width="40"></td>
+										<td class="desktop_hide" width="40" style="max-height: 0px; font-size: 0; display: none;"></td>
 										<td class="ptsans width_266 mob_w323 se_w290 se_font lh_subheading" style="font-size: 20px; max-width: 425px; font-weight: normal; line-height: 1.6; font-family: 'PT Sans', sans-serif;" width="514" align="center">
 											<a href="/" target="_blank" style="color: #020202; text-decoration: none;">
 												Celebrate the 4th with higher profits by following these simple yet effective marketing tips:
 											</a>
 										</td>
-										<td class="desktop_hide" width="40"></td>
+										<td class="desktop_hide" width="40" style="max-height: 0px; font-size: 0; display: none;"></td>
 									</tr>
 								</table>
 							</td>
@@ -769,7 +615,7 @@
 				<td valign="top" align="center">
 					<table class="wrapper_table" cellpadding="0" cellspacing="0" border="0" width="800" style="table-layout: fixed; max-width: 800px;">
 						<tr>
-							<td class="content nobg_mobile"   align="center" width="800" height="auto" valign="top"  style=" width: 800px;">
+							<td class="content nobg_mobile" align="center" width="800" height="auto" valign="top" style="width: 800px;">
 								<!--[if gte mso 9]>
 									<v:rect xmlns:v="urn:schemas-microsoft-com:vml" fill="true" stroke="false" style="width:800px;height:782px;">
 									<v:textbox inset="0,0,0,0">
@@ -781,7 +627,7 @@
 										</td>
 										<td valign="top">
 											<table cellpadding="0" cellspacing="0" border="0" class="mobile_centered_table">
-												<tr height="28"></tr>
+												<tr><td height="28"></td></tr>
 												<tr>
 													<td class="height_20 nomobile">
 													</td>
@@ -822,23 +668,23 @@
 																			<td valign="top">
 																				<table cellpadding="0" cellspacing="0" border="0">
 																					<tr>
-																						<td height="10" >
+																						<td height="10">
 																						</td>
 																					</tr>
 																					<tr>
-																						<td style=" width: 12px; height: 12px; background-color: #d02b2a;">
+																						<td style="width: 12px; height: 12px;" bgcolor="#d02b2a">
 																						</td>
 																					</tr>
 																				</table>
 																			</td>
 																			<td width="20" class="nomobile"></td>
-																			<td width="21" class="desktop_hide"></td>
+																			<td width="21" class="desktop_hide" style="max-height: 0px; font-size: 0; display: none;"></td>
 																			<td>
 																				<table cellpadding="0" cellspacing="0" border="0">
 																					<tr>
-																						<td class="lh_subheading width_299 se_w240 se_font" style="font-size: 20px; line-height: 1.6; font-family: 'PT Sans', sans-serif; max-width: 430px" width="auto">
+																						<td class="lh_subheading width_299 se_w240 se_font" style="font-size: 20px; line-height: 1.6; font-family: 'PT Sans', sans-serif; max-width: 430px;" width="auto">
 																							<a href="/" target="_blank" style="color: #4f5057; text-decoration: none;">
-																								<span class="uppercase" style="font-weight: bold">create</span><span> a special 4th of July offer such as a discount or free item with every order.</span>
+																								<span class="uppercase" style="font-weight: bold; text-transform: uppercase;">create</span><span> a special 4th of July offer such as a discount or free item with every order.</span>
 																							</a>
 																						</td>
 																					</tr>
@@ -852,7 +698,7 @@
 														</table>
 													</td>
 												</tr>
-												<tr class="height_4" height="7"></tr>
+												<tr class="height_4"><td height="7"></td></tr>
 												<tr>
 													<td align="left" class="mob_left">
 														<table cellpadding="0" cellspacing="0" border="0">
@@ -864,23 +710,23 @@
 																			<td valign="top">
 																				<table cellpadding="0" cellspacing="0" border="0">
 																					<tr>
-																						<td height="10" >
+																						<td height="10">
 																						</td>
 																					</tr>
 																					<tr>
-																						<td style=" width: 12px; height: 12px; background-color: #d02b2a;">
+																						<td style="width: 12px; height: 12px;" bgcolor="#d02b2a">
 																						</td>
 																					</tr>
 																				</table>
 																			</td>
 																			<td width="20" class="nomobile"></td>
-																			<td width="21" class="desktop_hide"></td>
+																			<td width="21" class="desktop_hide" style="max-height: 0px; font-size: 0; display: none;"></td>
 																			<td>
 																				<table cellpadding="0" cellspacing="0" border="0">
 																					<tr>
-																						<td class="lh_subheading width_299 se_w240 se_font" style="font-size: 20px; line-height: 1.6; font-family: 'PT Sans', sans-serif; max-width: 430px" width="auto">
+																						<td class="lh_subheading width_299 se_w240 se_font" style="font-size: 20px; line-height: 1.6; font-family: 'PT Sans', sans-serif; max-width: 430px;" width="auto">
 																							<a href="/" target="_blank" style="color: #4f5057; text-decoration: none;">
-																								<span class="uppercase" style="font-weight: bold">This offer</span><span> could be a flash sale on the day or a promotion that runs for a few days afterwards.</span>
+																								<span class="uppercase" style="font-weight: bold; text-transform: uppercase;">This offer</span><span> could be a flash sale on the day or a promotion that runs for a few days afterwards.</span>
 																							</a>
 																						</td>
 																					</tr>
@@ -894,7 +740,7 @@
 														</table>
 													</td>
 												</tr>
-												<tr class="height_4" height="7"></tr>
+												<tr class="height_4"><td height="7"></td></tr>
 												<tr>
 													<td align="left" class="mob_left">
 														<table cellpadding="0" cellspacing="0" border="0">
@@ -906,23 +752,23 @@
 																			<td valign="top">
 																				<table cellpadding="0" cellspacing="0" border="0">
 																					<tr>
-																						<td height="10" >
+																						<td height="10">
 																						</td>
 																					</tr>
 																					<tr>
-																						<td style=" width: 12px; height: 12px; background-color: #d02b2a;">
+																						<td style="width: 12px; height: 12px;" bgcolor="#d02b2a">
 																						</td>
 																					</tr>
 																				</table>
 																			</td>
 																			<td width="20" class="nomobile"></td>
-																			<td width="21" class="desktop_hide"></td>
+																			<td width="21" class="desktop_hide" style="max-height: 0px; font-size: 0; display: none;"></td>
 																			<td>
 																				<table cellpadding="0" cellspacing="0" border="0">
 																					<tr>
-																						<td class="lh_subheading width_299 se_w240 se_font" style="font-size: 20px; line-height: 1.6; font-family: 'PT Sans', sans-serif; max-width: 430px" width="auto">
+																						<td class="lh_subheading width_299 se_w240 se_font" style="font-size: 20px; line-height: 1.6; font-family: 'PT Sans', sans-serif; max-width: 430px;" width="auto">
 																							<a href="/" target="_blank" style="color: #4f5057; text-decoration: none;">
-																								<span class="uppercase" style="font-weight: bold">Highlight</span><span> all of your red, white and blue pieces in a special showcase.</span>
+																								<span class="uppercase" style="font-weight: bold; text-transform: uppercase;">Highlight</span><span> all of your red, white and blue pieces in a special showcase.</span>
 																							</a>
 																						</td>
 																					</tr>
@@ -936,7 +782,7 @@
 														</table>
 													</td>
 												</tr>
-												<tr class="height_4" height="7"></tr>
+												<tr class="height_4"><td height="7"></td></tr>
 												<tr>
 													<td align="left" class="mob_left">
 														<table cellpadding="0" cellspacing="0" border="0">
@@ -948,23 +794,23 @@
 																			<td valign="top">
 																				<table cellpadding="0" cellspacing="0" border="0">
 																					<tr>
-																						<td height="10" >
+																						<td height="10">
 																						</td>
 																					</tr>
 																					<tr>
-																						<td style=" width: 12px; height: 12px; background-color: #d02b2a;">
+																						<td style="width: 12px; height: 12px;" bgcolor="#d02b2a">
 																						</td>
 																					</tr>
 																				</table>
 																			</td>
 																			<td width="20" class="nomobile"></td>
-																			<td width="21" class="desktop_hide"></td>
+																			<td width="21" class="desktop_hide" style="max-height: 0px; font-size: 0; display: none;"></td>
 																			<td>
 																				<table cellpadding="0" cellspacing="0" border="0">
 																					<tr>
-																						<td class="lh_subheading width_299 se_w240 se_font" style="font-size: 20px; line-height: 1.6; font-family: 'PT Sans', sans-serif; max-width: 430px" width="auto">
+																						<td class="lh_subheading width_299 se_w240 se_font" style="font-size: 20px; line-height: 1.6; font-family: 'PT Sans', sans-serif; max-width: 430px;" width="auto">
 																							<a href="/" target="_blank" style="color: #4f5057; text-decoration: none;">
-																								<span class="uppercase" style="font-weight: bold">Promote</span><span> your offer on all of your brand’s social media accounts and, if you have an SMS database, text them about your sale.</span>
+																								<span class="uppercase" style="font-weight: bold; text-transform: uppercase;">Promote</span><span> your offer on all of your brand’s social media accounts and, if you have an SMS database, text them about your sale.</span>
 																							</a>
 																						</td>
 																					</tr>
@@ -978,7 +824,7 @@
 														</table>
 													</td>
 												</tr>
-												<tr class="height_4" height="7"></tr>
+												<tr class="height_4"><td height="7"></td></tr>
 												<tr>
 													<td align="left" class="mob_left">
 														<table cellpadding="0" cellspacing="0" border="0">
@@ -990,23 +836,23 @@
 																			<td valign="top">
 																				<table cellpadding="0" cellspacing="0" border="0">
 																					<tr>
-																						<td height="10" >
+																						<td height="10">
 																						</td>
 																					</tr>
 																					<tr>
-																						<td style=" width: 12px; height: 12px; background-color: #d02b2a;">
+																						<td style="width: 12px; height: 12px;" bgcolor="#d02b2a">
 																						</td>
 																					</tr>
 																				</table>
 																			</td>
 																			<td width="20" class="nomobile"></td>
-																			<td width="21" class="desktop_hide"></td>
+																			<td width="21" class="desktop_hide" style="max-height: 0px; font-size: 0; display: none;"></td>
 																			<td>
 																				<table cellpadding="0" cellspacing="0" border="0">
 																					<tr>
-																						<td class="lh_subheading width_299 se_w240 se_font" style="font-size: 20px; line-height: 1.6; font-family: 'PT Sans', sans-serif; max-width: 430px" width="auto">
+																						<td class="lh_subheading width_299 se_w240 se_font" style="font-size: 20px; line-height: 1.6; font-family: 'PT Sans', sans-serif; max-width: 430px;" width="auto">
 																							<a href="/" target="_blank" style="color: #4f5057; text-decoration: none;">
-																								<span class="uppercase" style="font-weight: bold">Make sure</span><span> your offer is clearly spelled out in all emails and SMSes, with a prominent CTA included.</span>
+																								<span class="uppercase" style="font-weight: bold; text-transform: uppercase;">Make sure</span><span> your offer is clearly spelled out in all emails and SMSes, with a prominent CTA included.</span>
 																							</a>
 																						</td>
 																					</tr>
@@ -1026,19 +872,20 @@
 												</tr>
 											</table>
 										</td>
-										<td class="desktop_hide" width="26"></td>
+										<td class="desktop_hide" width="26" style="max-height: 0px; font-size: 0; display: none;"></td>
 									</tr>
-									<tr height="10" class="height_9">
+									<tr class="height_9">
+										<td height="10"></td>
 									</tr>
 									<tr>
 										<td align="center" colspan="3">
 											<table cellpadding="0" cellspacing="0" border="0" class="mobile_centered_table">
 												<tr>
-													<td align="center"  bgcolor="#020202">
+													<td align="center" bgcolor="#020202">
 														<table cellspacing="0" cellpadding="0" border="0">
 															<tr>
-																<td width="185"  height="56" align="center" style="font-size: 15px; font-weight: bold; font-family: 'PT Sans', sans-serif;">
-																	<a href="/" target="_blank" class="uppercase" style="line-height: 2.8; letter-spacing: 0.75px; color: #ffffff; display: block !important; text-decoration: none;">
+																<td width="185" height="56" align="center" style="font-size: 15px; font-weight: bold; font-family: 'PT Sans', sans-serif;">
+																	<a href="/" target="_blank" class="uppercase" style="line-height: 2.8; letter-spacing: 0.75px; color: #ffffff; display: block !important; text-decoration: none; text-transform: uppercase;">
 																		Restock Now
 																	</a>
 																</td>
@@ -1062,14 +909,14 @@
 			</tr>
 		</table>
 	<table class="wrapper_table" align="center" cellpadding="0" cellspacing="0" border="0" width="auto" style="max-width: 800px;">
-		<tr class="height_95" height="99"></tr>
+		<tr class="height_95"><td height="99"></td></tr>
 		<tr>
 			<td align="center">
 				<table cellpadding="0" cellspacing="0" border="0">
 					<tr>
 						<td class="padding"></td>
 						<td>
-							<table cellpadding="0" cellspacing="0" border="0" >
+							<table cellpadding="0" cellspacing="0" border="0">
 								<tr>
 									<td class="mob_letter_spacing mob_width mobile_weight500" style="font-size: 30px; line-height: 1; letter-spacing: normal; font-weight: bold; font-family: 'Open Sans', sans-serif;" align="center">
 										<a href="/" target="_blank" style="color: #020202; text-decoration: none;">
@@ -1083,64 +930,64 @@
 					</tr>
 				</table>
 				<table cellpadding="0" cellspacing="0" border="0" class="nomobile">
-					<tr class="height_40" height="45"></tr>
+					<tr class="height_40"><td height="45"></td></tr>
 					<tr>
 						<td>
 							<table cellpadding="0" cellspacing="0" border="0">
 								<tr>
 									<td>
-									<img src="https://res.cloudinary.com/pdr-app/image/upload/v1651841091/test-1-code-crew/section-1-image-1.png" alt="image-1" />
+									<img src="https://res.cloudinary.com/pdr-app/image/upload/v1651841091/test-1-code-crew/section-1-image-1.png" alt="image-1" style="display: block;" />
 									</td>
 									<td width="15" class="width_18"></td>
 									<td>
-										<img src="https://res.cloudinary.com/pdr-app/image/upload/v1651841091/test-1-code-crew/section-1-image-2.png" alt="image-1" />
+										<img src="https://res.cloudinary.com/pdr-app/image/upload/v1651841091/test-1-code-crew/section-1-image-2.png" alt="image-1" style="display: block;" />
 									</td>
 									<td width="15" class="width_18"></td>
 									<td>
-										<img src="https://res.cloudinary.com/pdr-app/image/upload/v1651841091/test-1-code-crew/section-1-image-3.png" alt="image-1" />
+										<img src="https://res.cloudinary.com/pdr-app/image/upload/v1651841091/test-1-code-crew/section-1-image-3.png" alt="image-1" style="display: block;" />
 									</td>
 								</tr>
 							</table>
 						</td>
 					</tr>
 				</table>
-				<table cellpadding="0" cellspacing="0" border="0" class="desktop_hide">
-					<tr height="46"></tr>
-					<tr width="100vw">
+				<table cellpadding="0" cellspacing="0" border="0" class="desktop_hide" style="max-height: 0px; font-size: 0; display: none;">
+					<tr><td height="46"></td></tr>
+					<tr style="width: 100vw">
 						<td width="47"></td>
 						<td>
 							<table cellpadding="0" cellspacing="0" border="0">
 								<tr>
 									<td>
-										<img src="https://res.cloudinary.com/pdr-app/image/upload/v1652101783/test-1-code-crew/section-1-image-1-mobile.png" alt="image-1" />
+										<img src="https://res.cloudinary.com/pdr-app/image/upload/v1652101783/test-1-code-crew/section-1-image-1-mobile.png" alt="image-1" style="display: block;" />
 									</td>
 								</tr>
 							</table>
 						</td>
 						<td width="47"></td>
 					</tr>
-					<tr height="16"></tr>
-					<tr width="100vw">
+					<tr><td height="16"></td></tr>
+					<tr style="width: 100vw">
 						<td width="47"></td>
 						<td>
 							<table cellpadding="0" cellspacing="0" border="0">
 								<tr>
 									<td>
-										<img src="https://res.cloudinary.com/pdr-app/image/upload/v1652101783/test-1-code-crew/section-1-image-2-mobile.png" alt="image-2" />
+										<img src="https://res.cloudinary.com/pdr-app/image/upload/v1652101783/test-1-code-crew/section-1-image-2-mobile.png" alt="image-2" style="display: block;" />
 									</td>
 								</tr>
 							</table>
 						</td>
 						<td width="47"></td>
 					</tr>
-					<tr height="16"></tr>
-					<tr width="100vw">
+					<tr><td height="16"></td></tr>
+					<tr style="width: 100vw">
 						<td width="47"></td>
 						<td>
 							<table cellpadding="0" cellspacing="0" border="0">
 								<tr>
 									<td>
-										<img src="https://res.cloudinary.com/pdr-app/image/upload/v1652101783/test-1-code-crew/section-1-image-3-mobile.png" alt="image-3" />
+										<img src="https://res.cloudinary.com/pdr-app/image/upload/v1652101783/test-1-code-crew/section-1-image-3-mobile.png" alt="image-3" style="display: block;" />
 									</td>
 								</tr>
 							</table>
@@ -1149,14 +996,16 @@
 					</tr>
 				</table>
 					<table cellpadding="0" cellspacing="0" border="0" class="">
-					<tr class="height_40 nomobile" height="40"></tr>
-					<tr height="43" class="desktop_hide"></tr>
+					<tr class="height_40 nomobile"><td height="40"></td></tr>
+					<tr class="desktop_hide" style="max-height: 0px; font-size: 0; display: none;">
+						<td height="43"></td>
+					</tr>
 					<tr>
-						<td class="desktop_hide" width="40"></td>
+						<td class="desktop_hide" width="40" style="max-height: 0px; font-size: 0; display: none;"></td>
 						<td>
 							<table cellpadding="0" cellspacing="0" border="0" style="margin: 0 auto;">
 								<tr>
-									<td class="mob_letter_spacing mob_width mobile_weight500" style="font-size: 18px; line-height: 1.67; letter-spacing: normal; font-weight: normal; font-family: 'PT Sans', sans-serif; max-width: 335px" align="center">
+									<td class="mob_letter_spacing mob_width mobile_weight500" style="font-size: 18px; line-height: 1.67; letter-spacing: normal; font-weight: normal; font-family: 'PT Sans', sans-serif; max-width: 335px;" align="center">
 										<a href="/" target="_blank" style="color: #020202; text-decoration: none;">
 											Take your summer collection to the next level with all-new Hayden LA, Hayden Plus, and Hayden Girls pieces.
 										</a>
@@ -1164,18 +1013,18 @@
 								</tr>
 							</table>
 						</td>
-						<td class="desktop_hide" width="40"></td>
+						<td class="desktop_hide" width="40" style="max-height: 0px; font-size: 0; display: none;"></td>
 					</tr>
-					<tr class="height_40" height="40"></tr>
+					<tr class="height_40"><td height="40"></td></tr>
 					<tr>
 					<td align="center" colspan="3">
 						<table cellpadding="0" cellspacing="0" border="0" class="mobile_centered_table">
 							<tr>
-								<td align="center"  bgcolor="#020202">
+								<td align="center" bgcolor="#020202">
 									<table cellspacing="0" cellpadding="0" border="0">
 										<tr>
-											<td   height="56" align="center" style="font-size: 15px; font-weight: bold; font-family: 'PT Sans', sans-serif; padding: 0 40px">
-												<a href="/" target="_blank" class="uppercase" style="line-height: 2.8; letter-spacing: 0.75px; color: #ffffff; display: block !important; text-decoration: none;">
+											<td height="56" align="center" style="font-size: 15px; font-weight: bold; font-family: 'PT Sans', sans-serif; padding: 0 40px;">
+												<a href="/" target="_blank" class="uppercase" style="line-height: 2.8; letter-spacing: 0.75px; color: #ffffff; display: block !important; text-decoration: none; text-transform: uppercase;">
 													shop now
 												</a>
 											</td>
@@ -1191,8 +1040,10 @@
 		</tr>
 	</table>
 	<table class="wrapper_table" align="center" cellpadding="0" cellspacing="0" border="0" width="800" style="max-width: 800px; table-layout: fixed;">
-	<tr height="99" class="height_90 nomobile"></tr>
-	<tr class="desktop_hide" height="52"></tr>
+	<tr class=" nomobile">
+		<td height="99" class="height_90"></td>
+	</tr>
+	<tr class="desktop_hide"><td height="52" style="max-height: 0px; font-size: 0; display: none;"></td></tr>
 	<tr>
 		<td align="center">
 			<table cellpadding="0" cellspacing="0" border="0" class="mobile_centered_table">
@@ -1202,18 +1053,18 @@
 							<tr>
 								<td align="center">
 									<a href="/" target="_blank" style="display: block !important; text-decoration: none;">
-										<img src="https://res.cloudinary.com/pdr-app/image/upload/v1651841091/test-1-code-crew/main-logo.png" style="font-size: 20px; display: block; width: auto" alt="Hayden logo" align="middle" border="0" />
+										<img src="https://res.cloudinary.com/pdr-app/image/upload/v1651841091/test-1-code-crew/main-logo.png" style="font-size: 20px; display: block; width: auto;" alt="Hayden logo" align="middle" border="0" />
 									</a>
 								</td>
 							</tr>
 						</table>
-						<table cellpadding="0" cellspacing="0" border="0" width="100%" class="desktop_hide mobile_centered_table">
-							<tbody style="display: block">
-							<tr height="48"></tr>
+						<table cellpadding="0" cellspacing="0" border="0" width="100%" class="desktop_hide mobile_centered_table" style="max-height: 0px; font-size: 0; display: none;">
+							<tbody style="display: block;">
+							<tr><td height="48"></td></tr>
 							<tr style="display: block; width: 151px; margin: 0 auto;">
 								<td align="center">
 									<a href="/" target="_blank" style="display: block !important; text-decoration: none;">
-										<img src="https://res.cloudinary.com/pdr-app/image/upload/v1651841091/test-1-code-crew/main-logo.png" style="font-size: 20px; display: block; width: auto" alt="Hayden logo" align="middle" border="0" />
+										<img src="https://res.cloudinary.com/pdr-app/image/upload/v1651841091/test-1-code-crew/main-logo.png" style="font-size: 20px; display: block; width: auto;" alt="Hayden logo" align="middle" border="0" />
 									</a>
 								</td>
 							</tr>
@@ -1229,43 +1080,43 @@
 		<tr>
 			<td class="content" width="800" align="center" bgcolor="#fff">
 				<table cellpadding="0" cellspacing="0" border="0" class="nomobile">
-					<tr class="height_40" height="42"></tr>
+					<tr class="height_40"><td height="42"></td></tr>
 					<tr>
 						<td>
-							<a href="/" target="_blank" style=" text-decoration: none;">
+							<a href="/" target="_blank" style="text-decoration: none;">
 								<img src="https://res.cloudinary.com/pdr-app/image/upload/v1651841090/test-1-code-crew/footer-image-1.png" style="font-size: 20px; display: block;" alt="footer-image-1" border="0" />
 							</a>
 						</td>
 						<td>
-							<a href="/" target="_blank" style=" text-decoration: none;">
+							<a href="/" target="_blank" style="text-decoration: none;">
 								<img src="https://res.cloudinary.com/pdr-app/image/upload/v1651841090/test-1-code-crew/footer-image-2.png" style="font-size: 20px; display: block;" alt="footer-image-1" border="0" />
 							</a>
 						</td>
 						<td>
-							<a href="/" target="_blank" style=" text-decoration: none;">
+							<a href="/" target="_blank" style="text-decoration: none;">
 								<img src="https://res.cloudinary.com/pdr-app/image/upload/v1651841090/test-1-code-crew/footer-image-3.png" style="font-size: 20px; display: block;" alt="footer-image-1" border="0" />
 							</a>
 						</td>
 						<td>
-							<a href="/" target="_blank" style=" text-decoration: none;">
+							<a href="/" target="_blank" style="text-decoration: none;">
 								<img src="https://res.cloudinary.com/pdr-app/image/upload/v1651841090/test-1-code-crew/footer-image-4.png" style="font-size: 20px; display: block;" alt="footer-image-1" border="0" />
 							</a>
 						</td>
 					</tr>
 				</table>
-				<table cellpadding="0" cellspacing="0" border="0" class="desktop_hide">
-					<tr height="45"></tr>
+				<table cellpadding="0" cellspacing="0" border="0" class="desktop_hide" style="max-height: 0px; font-size: 0; display: none;">
+					<tr><td height="45"></td></tr>
 					<tr>
 						<td>
 							<table cellpadding="0" cellspacing="0" border="0">
 								<tr>
 									<td width="24"></td>
 									<td>
-										<a href="/" target="_blank" style=" text-decoration: none;">
+										<a href="/" target="_blank" style="text-decoration: none;">
 											<img src="https://res.cloudinary.com/pdr-app/image/upload/v1652101783/test-1-code-crew/footer-image-1-mobile.png" style="font-size: 20px; display: block;" alt="footer-image-1" border="0" />
 										</a></td>
 									<td>
-										<a href="/" target="_blank" style=" text-decoration: none;">
+										<a href="/" target="_blank" style="text-decoration: none;">
 											<img src="https://res.cloudinary.com/pdr-app/image/upload/v1651841090/test-1-code-crew/footer-image-2-mobile.png" style="font-size: 20px; display: block;" alt="footer-image-1" border="0" />
 										</a>
 									</td>
@@ -1280,11 +1131,11 @@
 								<tr>
 									<td width="24"></td>
 									<td>
-										<a href="/" target="_blank" style=" text-decoration: none;">
+										<a href="/" target="_blank" style="text-decoration: none;">
 											<img src="https://res.cloudinary.com/pdr-app/image/upload/v1652101783/test-1-code-crew/footer-image-3-mobile.png" style="font-size: 20px; display: block;" alt="footer-image-1" border="0" />
 										</a></td>
 									<td>
-										<a href="/" target="_blank" style=" text-decoration: none;">
+										<a href="/" target="_blank" style="text-decoration: none;">
 											<img src="https://res.cloudinary.com/pdr-app/image/upload/v1651841090/test-1-code-crew/footer-image-4mobile.png" style="font-size: 20px; display: block;" alt="footer-image-1" border="0" />
 										</a>
 									</td>
@@ -1298,11 +1149,11 @@
 		</tr>
 	</table>
 	<table class="wrapper_table" align="center" cellpadding="0" cellspacing="0" border="0" width="auto" style="max-width: 800px;">
-		<tr height="31"></tr>
+		<tr><td height="31"></td></tr>
 		<tr class="nomobile">
 			<td class="content" width="auto" align="center" bgcolor="">
 				<table cellpadding="0" cellspacing="0" border="0" width="auto">
-					<tr style="vertical-align: center" align="center">
+					<tr style="vertical-align: center;" align="center">
 						<td class="mob_letter_spacing mob_width mobile_weight500" style="font-size: 14px; line-height: 1; letter-spacing: 1.4px; text-transform: uppercase; font-weight: bold; font-family: 'PT Sans', sans-serif;">
 							<a href="" target="_blank" style="color: #020202; text-decoration: none;">
 								Exclusives
@@ -1312,7 +1163,7 @@
 						<td>
 							<table cellpadding="0" cellspacing="0" border="0" width="auto">
 								<tr>
-									<td style="width: 2px; height: 13px; background-color: #020202; display: block"></td>
+									<td style="width: 2px; height: 13px; display: block;" bgcolor="#020202"></td>
 								</tr>
 							</table>
 						</td>
@@ -1326,7 +1177,7 @@
 						<td>
 							<table cellpadding="0" cellspacing="0" border="0" width="auto">
 								<tr>
-									<td style="width: 2px; height: 13px; background-color: #020202; display: block"></td>
+									<td style="width: 2px; height: 13px; display: block;" bgcolor="#020202"></td>
 								</tr>
 							</table>
 						</td>
@@ -1340,7 +1191,7 @@
 						<td>
 							<table cellpadding="0" cellspacing="0" border="0" width="auto">
 								<tr>
-									<td style="width: 2px; height: 13px; background-color: #020202; display: block"></td>
+									<td style="width: 2px; height: 13px; display: block;" bgcolor="#020202"></td>
 								</tr>
 							</table>
 						</td>
@@ -1354,7 +1205,7 @@
 						<td>
 							<table cellpadding="0" cellspacing="0" border="0" width="auto">
 								<tr>
-									<td style="width: 2px; height: 13px; background-color: #020202; display: block"></td>
+									<td style="width: 2px; height: 13px; display: block;" bgcolor="#020202"></td>
 								</tr>
 							</table>
 						</td>
@@ -1368,11 +1219,11 @@
 				</table>
 			</td>
 		</tr>
-		<tr class="desktop_hide">
+		<tr class="desktop_hide" style="max-height: 0px; font-size: 0; display: none;">
 			<td width="47"></td>
 			<td class="content" width="auto" align="center" bgcolor="">
 				<table cellpadding="0" cellspacing="0" border="0" width="100%">
-					<tr style="vertical-align: center" align="center">
+					<tr style="vertical-align: center;" align="center">
 						<td class="mob_letter_spacing mob_width mobile_weight500" style="font-size: 14px; line-height: 1; letter-spacing: 1.4px; text-transform: uppercase; font-weight: bold; font-family: 'PT Sans', sans-serif;">
 							<a href="" target="_blank" style="color: #020202; text-decoration: none;">
 								Exclusives
@@ -1382,7 +1233,7 @@
 						<td>
 							<table cellpadding="0" cellspacing="0" border="0" width="auto">
 								<tr>
-									<td style="width: 2px; height: 13px; background-color: #020202; display: block"></td>
+									<td style="width: 2px; height: 13px; display: block;" bgcolor="#020202"></td>
 								</tr>
 							</table>
 						</td>
@@ -1396,7 +1247,7 @@
 						<td>
 							<table cellpadding="0" cellspacing="0" border="0" width="auto">
 								<tr>
-									<td style="width: 2px; height: 13px; background-color: #020202; display: block"></td>
+									<td style="width: 2px; height: 13px; display: block;" bgcolor="#020202"></td>
 								</tr>
 							</table>
 						</td>
@@ -1409,7 +1260,7 @@
 					</tr>
 				</table>
 				<table cellpadding="0" cellspacing="0" border="0" width="auto">
-					<tr height="8"></tr>
+					<tr><td height="8"></td></tr>
 				</table>
 				<table cellpadding="0" cellspacing="0" border="0" width="auto">
 					<tr>
@@ -1422,7 +1273,7 @@
 						<td>
 							<table cellpadding="0" cellspacing="0" border="0" width="auto">
 								<tr>
-									<td style="width: 2px; height: 13px; background-color: #020202; display: block"></td>
+									<td style="width: 2px; height: 13px; display: block;" bgcolor="#020202"></td>
 								</tr>
 							</table>
 						</td>
@@ -1439,7 +1290,7 @@
 		</tr>
 	</table>
 	<table class="wrapper_table" align="center" cellpadding="0" cellspacing="0" border="0" width="auto" style="max-width: 800px;">
-		<tr class="height_18" height="10"></tr>
+		<tr class="height_18"><td height="10"></td></tr>
 		<tr>
 			<td class="content" width="auto" align="center" bgcolor="">
 				<table cellpadding="0" cellspacing="0" border="0" width="auto%">
@@ -1456,7 +1307,7 @@
 							</table>
 						</td>
 					</tr>
-					<tr class="desktop_hide">
+					<tr class="desktop_hide" style="max-height: 0px; font-size: 0; display: none;">
 						<td width="27"></td>
 						<td>
 							<table cellpadding="0" cellspacing="0" border="0">
@@ -1467,7 +1318,7 @@
 										</a>
 									</td>
 								</tr>
-								<tr height="3"></tr>
+								<tr><td height="3"></td></tr>
 								<tr>
 									<td class="mob_letter_spacing mob_width mobile_weight500" style="font-size: 14px; letter-spacing: 1.4px; font-weight: normal; font-family: 'PT Sans', sans-serif;" align="center">
 										<a href="/" target="_blank" style="color: #979c9f; text-decoration: none;">
@@ -1482,7 +1333,7 @@
 				</table>
 			</td>
 		</tr>
-		<tr class="height_60" height="60"></tr>
+		<tr class="height_60"><td height="60"></td></tr>
 	</table>
 	</body>
 </html>
