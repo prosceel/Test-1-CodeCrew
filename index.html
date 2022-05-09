@@ -316,6 +316,9 @@
 			table.wrapper_table .height_60 {
 			height: 60px;
 			}
+			table.wrapper_table .height_64 {
+			height: 64px;
+			}
 			table.wrapper_table .height_70 {
 			height: 70px;
 			}
@@ -325,8 +328,11 @@
 			table.wrapper_table .height_80 {
 			height: 80px;
 			}
-				table.wrapper_table .height_90 {
+			table.wrapper_table .height_90 {
 			height: 90px;
+			}
+			table.wrapper_table .height_95 {
+			height: 95px;
 			}
 			
 			/*Fonts*/
@@ -366,7 +372,7 @@
 			line-height: 42px !important;
 			}
 			table.wrapper_table .lh_subheading {
-			line-height: 34px !important;
+			line-height: 35px !important;
 			}
 			table.wrapper_table .lh_paragraph {
 			line-height: 30px !important;
@@ -597,7 +603,7 @@
 								<![endif]-->
 								<table class="content" cellpadding="0" cellspacing="0" border="0" width="800">
 									<tr>
-										<td height="60">
+										<td height="60" class="nomobile">
 											<a href="/" target="_blank" style="height: 100%; display: block !important; text-decoration: none;">
 											</a>
 										</td>
@@ -610,7 +616,7 @@
 										<td class="padding" >
 										</td>
 										<td>
-											<table cellpadding="0" cellspacing="0" border="0" width="100%">
+											<table cellpadding="0" cellspacing="0" border="0" width="100%" class="nomobile">
 												<tr>
 													<td align="center">
 														<a href="/" target="_blank" style="display: block !important; text-decoration: none;">
@@ -618,6 +624,18 @@
 														</a>
 													</td>
 												</tr>
+											</table>
+											<table cellpadding="0" cellspacing="0" border="0" width="100%" class="desktop_hide mobile_centered_table">
+												<tbody style="display: block">
+												<tr height="48"></tr>
+												<tr style="display: block; width: 151px; margin: 0 auto;">
+													<td align="center">
+														<a href="/" target="_blank" style="display: block !important; text-decoration: none;">
+															<img src="https://res.cloudinary.com/pdr-app/image/upload/v1651841091/test-1-code-crew/main-logo.png" style="font-size: 20px; display: block; width: auto" alt="Hayden logo" align="middle" border="0" />
+														</a>
+													</td>
+												</tr>
+												</tbody>
 											</table>
 										</td>
 										<td  class="padding">
@@ -648,25 +666,55 @@
 					<table cellpadding="0" cellspacing="0" border="0" width="100%" style="position: relative">
 						<tr>
 							<td align="center">
-								<table cellpadding="0" cellspacing="0" border="0">
+								<table cellpadding="0" cellspacing="0" border="0" class="nomobile">
 									<tr height="38"></tr>
 									<tr>
+										<td class="padding"></td>
 										<td width="8" class="width_18"></td>
 										<td align="center">
 											<a href="/" target="_blank">
 												<img src="https://res.cloudinary.com/pdr-app/image/upload/v1651841090/test-1-code-crew/hero-image.png" style="position: relative; z-index: 2;" alt="hero-image" />
-												<img src="https://res.cloudinary.com/pdr-app/image/upload/v1651841091/test-1-code-crew/hero-background.png" style="font-size: 20px; display: block; color: #4f5057; position: absolute; top: 9px; left: 99px; z-index: 0; width: auto;" alt="hero-background" align="middle" class="nomobile" width="800" border="0" />
-												<!--[if!mso]><!-->
-												<img src="https://codecrew.codecrew.us/Email/NGO/2021/9.23.2021_Fall_Fundraising_Planet_Bee/img1_mobile.png" alt="" class="desktop_hide" style="width: auto;" border="0">
-												<!--<![endif]-->
+												<img src="https://res.cloudinary.com/pdr-app/image/upload/v1651841091/test-1-code-crew/hero-background.png" style="font-size: 20px; display: block; color: #4f5057; position: absolute; top: 9px; left: 99px; z-index: 0; width: auto;" alt="hero-background" align="middle"  width="auto" border="0"/>
 											</a>
 										</td>
+										<td class="padding"></td>
+									</tr>
+								</table>
+								<table cellpadding="0" cellspacing="0" border="0" class="desktop_hide">
+									<tr height="25"></tr>
+									<tr>
+										<td class="padding"></td>
+										<td width="8" class="width_18 nomobile"></td>
+										<td align="center">
+											<table cellpadding="0" cellspacing="0" border="0">
+												<tr>
+													<td width="54"></td>
+													<td>
+														<a href="/" target="_blank">
+															<img src="https://res.cloudinary.com/pdr-app/image/upload/v1651841090/test-1-code-crew/hero-image.png" style="position: relative; z-index: 2;" alt="hero-image"  />
+														</a>
+													</td>
+													<td width="46"></td>
+												</tr>
+											</table>
+											<table cellpadding="0" cellspacing="0" border="0" style="position: absolute; top: 9px; left: 0; z-index: 0;">
+												<tr>
+													<td width="18"></td>
+													<td>
+														<a href="/" target="_blank">
+															<img src="https://res.cloudinary.com/pdr-app/image/upload/v1651841091/test-1-code-crew/hero-background.png"  style="font-size: 20px; display: block; color: #4f5057; width: auto;" alt="hero-background" align="middle"  width="auto" border="0" />
+														</a>
+													</td>
+												</tr>
+											</table>
+										</td>
+										<td class="padding"></td>
 									</tr>
 								</table>
 							</td>
 						</tr>
 						<tr>
-							<td height="62" class="height_70"></td>
+							<td height="62" class="height_64"></td>
 						</tr>
 						<tr>
 							<td align="center">
@@ -675,9 +723,11 @@
 										<td>
 											<table cellpadding="0" cellspacing="0" border="0" >
 												<tr>
+													<td width="17" class="desktop_hide"></td>
 													<td class="" style="text-align: center;" width="auto">
 														<img src="https://res.cloudinary.com/pdr-app/image/upload/v1651935108/test-1-code-crew/hero-heading.png" alt="hero-heading" style="width: auto; margin: 0 auto;"/>
 													</td>
+													<td width="17" class="desktop_hide"></td>
 												</tr>
 											</table>
 										</td>
@@ -692,11 +742,13 @@
 							<td align="center">
 								<table cellpadding="0" cellspacing="0" border="0">
 									<tr>
-										<td class="ptsans width_266 mob_w323 se_w290 se_font" style="font-size: 20px; max-width: 425px; font-weight: normal; line-height: 1.6; font-family: 'PT Sans', sans-serif;" width="514" align="center">
+										<td class="desktop_hide" width="40"></td>
+										<td class="ptsans width_266 mob_w323 se_w290 se_font lh_subheading" style="font-size: 20px; max-width: 425px; font-weight: normal; line-height: 1.6; font-family: 'PT Sans', sans-serif;" width="514" align="center">
 											<a href="/" target="_blank" style="color: #020202; text-decoration: none;">
 												Celebrate the 4th with higher profits by following these simple yet effective marketing tips:
 											</a>
 										</td>
+										<td class="desktop_hide" width="40"></td>
 									</tr>
 								</table>
 							</td>
@@ -720,16 +772,18 @@
 								<![endif]-->
 								<table class="content" cellpadding="0" cellspacing="0" border="0" width="800">
 									<tr>
+										<td class="padding"></td>
 										<td width="163" class="nomobile">
 										</td>
 										<td valign="top">
 											<table cellpadding="0" cellspacing="0" border="0" class="mobile_centered_table">
+												<tr height="28"></tr>
 												<tr>
-													<td class="height_20">
+													<td class="height_20 nomobile">
 													</td>
 												</tr>
 												<tr>
-													<td class="height_3">
+													<td class="height_3 nomobile">
 													</td>
 												</tr>
 												<tr>
@@ -746,11 +800,11 @@
 													</td>
 												</tr>
 												<tr>
-													<td height="30" class="height_30">
+													<td height="30" class="height_30 nomobile">
 													</td>
 												</tr>
 												<tr>
-													<td class="height_2">
+													<td class="height_2 nomobile">
 													</td>
 												</tr>
 												<tr>
@@ -773,11 +827,12 @@
 																					</tr>
 																				</table>
 																			</td>
-																			<td width="20" ></td>
+																			<td width="20" class="nomobile"></td>
+																			<td width="21" class="desktop_hide"></td>
 																			<td>
 																				<table cellpadding="0" cellspacing="0" border="0">
 																					<tr>
-																						<td class="width_299 se_w240 se_font" style="font-size: 20px; line-height: 1.6; font-family: 'PT Sans', sans-serif; max-width: 430px" width="auto">
+																						<td class="lh_subheading width_299 se_w240 se_font" style="font-size: 20px; line-height: 1.6; font-family: 'PT Sans', sans-serif; max-width: 430px" width="auto">
 																							<a href="/" target="_blank" style="color: #4f5057; text-decoration: none;">
 																								<span class="uppercase" style="font-weight: bold">create</span><span> a special 4th of July offer such as a discount or free item with every order.</span>
 																							</a>
@@ -793,7 +848,7 @@
 														</table>
 													</td>
 												</tr>
-												<tr class="height_7" height="7"></tr>
+												<tr class="height_4" height="7"></tr>
 												<tr>
 													<td align="left" class="mob_left">
 														<table cellpadding="0" cellspacing="0" border="0">
@@ -814,11 +869,12 @@
 																					</tr>
 																				</table>
 																			</td>
-																			<td width="20" ></td>
+																			<td width="20" class="nomobile"></td>
+																			<td width="21" class="desktop_hide"></td>
 																			<td>
 																				<table cellpadding="0" cellspacing="0" border="0">
 																					<tr>
-																						<td class="width_299 se_w240 se_font" style="font-size: 20px; line-height: 1.6; font-family: 'PT Sans', sans-serif; max-width: 430px" width="auto">
+																						<td class="lh_subheading width_299 se_w240 se_font" style="font-size: 20px; line-height: 1.6; font-family: 'PT Sans', sans-serif; max-width: 430px" width="auto">
 																							<a href="/" target="_blank" style="color: #4f5057; text-decoration: none;">
 																								<span class="uppercase" style="font-weight: bold">This offer</span><span> could be a flash sale on the day or a promotion that runs for a few days afterwards.</span>
 																							</a>
@@ -834,7 +890,7 @@
 														</table>
 													</td>
 												</tr>
-												<tr class="height_7" height="7"></tr>
+												<tr class="height_4" height="7"></tr>
 												<tr>
 													<td align="left" class="mob_left">
 														<table cellpadding="0" cellspacing="0" border="0">
@@ -855,11 +911,12 @@
 																					</tr>
 																				</table>
 																			</td>
-																			<td width="20" ></td>
+																			<td width="20" class="nomobile"></td>
+																			<td width="21" class="desktop_hide"></td>
 																			<td>
 																				<table cellpadding="0" cellspacing="0" border="0">
 																					<tr>
-																						<td class="width_299 se_w240 se_font" style="font-size: 20px; line-height: 1.6; font-family: 'PT Sans', sans-serif; max-width: 430px" width="auto">
+																						<td class="lh_subheading width_299 se_w240 se_font" style="font-size: 20px; line-height: 1.6; font-family: 'PT Sans', sans-serif; max-width: 430px" width="auto">
 																							<a href="/" target="_blank" style="color: #4f5057; text-decoration: none;">
 																								<span class="uppercase" style="font-weight: bold">Highlight</span><span> all of your red, white and blue pieces in a special showcase.</span>
 																							</a>
@@ -875,7 +932,7 @@
 														</table>
 													</td>
 												</tr>
-												<tr class="height_7" height="7"></tr>
+												<tr class="height_4" height="7"></tr>
 												<tr>
 													<td align="left" class="mob_left">
 														<table cellpadding="0" cellspacing="0" border="0">
@@ -896,11 +953,12 @@
 																					</tr>
 																				</table>
 																			</td>
-																			<td width="20" ></td>
+																			<td width="20" class="nomobile"></td>
+																			<td width="21" class="desktop_hide"></td>
 																			<td>
 																				<table cellpadding="0" cellspacing="0" border="0">
 																					<tr>
-																						<td class="width_299 se_w240 se_font" style="font-size: 20px; line-height: 1.6; font-family: 'PT Sans', sans-serif; max-width: 430px" width="auto">
+																						<td class="lh_subheading width_299 se_w240 se_font" style="font-size: 20px; line-height: 1.6; font-family: 'PT Sans', sans-serif; max-width: 430px" width="auto">
 																							<a href="/" target="_blank" style="color: #4f5057; text-decoration: none;">
 																								<span class="uppercase" style="font-weight: bold">Promote</span><span> your offer on all of your brand’s social media accounts and, if you have an SMS database, text them about your sale.</span>
 																							</a>
@@ -916,7 +974,7 @@
 														</table>
 													</td>
 												</tr>
-												<tr class="height_7" height="7"></tr>
+												<tr class="height_4" height="7"></tr>
 												<tr>
 													<td align="left" class="mob_left">
 														<table cellpadding="0" cellspacing="0" border="0">
@@ -937,11 +995,12 @@
 																					</tr>
 																				</table>
 																			</td>
-																			<td width="20" ></td>
+																			<td width="20" class="nomobile"></td>
+																			<td width="21" class="desktop_hide"></td>
 																			<td>
 																				<table cellpadding="0" cellspacing="0" border="0">
 																					<tr>
-																						<td class="width_299 se_w240 se_font" style="font-size: 20px; line-height: 1.6; font-family: 'PT Sans', sans-serif; max-width: 430px" width="auto">
+																						<td class="lh_subheading width_299 se_w240 se_font" style="font-size: 20px; line-height: 1.6; font-family: 'PT Sans', sans-serif; max-width: 430px" width="auto">
 																							<a href="/" target="_blank" style="color: #4f5057; text-decoration: none;">
 																								<span class="uppercase" style="font-weight: bold">Make sure</span><span> your offer is clearly spelled out in all emails and SMSes, with a prominent CTA included.</span>
 																							</a>
@@ -963,9 +1022,9 @@
 												</tr>
 											</table>
 										</td>
+										<td class="desktop_hide" width="26"></td>
 									</tr>
-									<tr>
-										<td height="10"></td>
+									<tr height="10" class="height_9">
 									</tr>
 									<tr>
 										<td align="center" colspan="3">
@@ -999,13 +1058,14 @@
 			</tr>
 		</table>
 	<table class="wrapper_table" align="center" cellpadding="0" cellspacing="0" border="0" width="auto" style="max-width: 800px;">
+		<tr class="height_95" height="99"></tr>
 		<tr>
 			<td align="center">
 				<table cellpadding="0" cellspacing="0" border="0">
-					<tr class="height_90" height="99"></tr>
 					<tr>
+						<td class="padding"></td>
 						<td>
-							<table cellpadding="0" cellspacing="0" border="0" style="margin: 0 auto;">
+							<table cellpadding="0" cellspacing="0" border="0" >
 								<tr>
 									<td class="mob_letter_spacing mob_width mobile_weight500" style="font-size: 30px; line-height: 1; letter-spacing: normal; font-weight: bold; font-family: 'Open Sans', sans-serif;" align="center">
 										<a href="/" target="_blank" style="color: #020202; text-decoration: none;">
@@ -1015,9 +1075,10 @@
 								</tr>
 							</table>
 						</td>
-						<td class="padding">
-						</td>
+						<td class="padding"></td>
 					</tr>
+				</table>
+				<table cellpadding="0" cellspacing="0" border="0" class="nomobile">
 					<tr class="height_40" height="45"></tr>
 					<tr>
 						<td>
@@ -1038,21 +1099,68 @@
 							</table>
 						</td>
 					</tr>
-					<tr class="height_40" height="40"></tr>
-					<tr>
+				</table>
+				<table cellpadding="0" cellspacing="0" border="0" class="desktop_hide">
+					<tr height="46"></tr>
+					<tr width="100vw">
+						<td width="47"></td>
 						<td>
-						<table cellpadding="0" cellspacing="0" border="0" style="margin: 0 auto;">
-							<tr>
-								<td class="mob_letter_spacing mob_width mobile_weight500" style="font-size: 18px; line-height: 1.67; letter-spacing: normal; font-weight: normal; font-family: 'PT Sans', sans-serif; max-width: 335px" align="center">
-									<a href="/" target="_blank" style="color: #020202; text-decoration: none;">
-										Take your summer collection to the next level with all-new Hayden LA, Hayden Plus, and Hayden Girls pieces.
-									</a>
-								</td>
-							</tr>
-						</table>
-					</td>
-						<td class="padding">
+							<table cellpadding="0" cellspacing="0" border="0">
+								<tr>
+									<td>
+										<img src="https://res.cloudinary.com/pdr-app/image/upload/v1652101783/test-1-code-crew/section-1-image-1-mobile.png" alt="image-1" />
+									</td>
+								</tr>
+							</table>
 						</td>
+						<td width="47"></td>
+					</tr>
+					<tr height="16"></tr>
+					<tr width="100vw">
+						<td width="47"></td>
+						<td>
+							<table cellpadding="0" cellspacing="0" border="0">
+								<tr>
+									<td>
+										<img src="https://res.cloudinary.com/pdr-app/image/upload/v1652101783/test-1-code-crew/section-1-image-2-mobile.png" alt="image-2" />
+									</td>
+								</tr>
+							</table>
+						</td>
+						<td width="47"></td>
+					</tr>
+					<tr height="16"></tr>
+					<tr width="100vw">
+						<td width="47"></td>
+						<td>
+							<table cellpadding="0" cellspacing="0" border="0">
+								<tr>
+									<td>
+										<img src="https://res.cloudinary.com/pdr-app/image/upload/v1652101783/test-1-code-crew/section-1-image-3-mobile.png" alt="image-3" />
+									</td>
+								</tr>
+							</table>
+						</td>
+						<td width="47"></td>
+					</tr>
+				</table>
+					<table cellpadding="0" cellspacing="0" border="0" class="">
+					<tr class="height_40 nomobile" height="40"></tr>
+					<tr height="43" class="desktop_hide"></tr>
+					<tr>
+						<td class="desktop_hide" width="40"></td>
+						<td>
+							<table cellpadding="0" cellspacing="0" border="0" style="margin: 0 auto;">
+								<tr>
+									<td class="mob_letter_spacing mob_width mobile_weight500" style="font-size: 18px; line-height: 1.67; letter-spacing: normal; font-weight: normal; font-family: 'PT Sans', sans-serif; max-width: 335px" align="center">
+										<a href="/" target="_blank" style="color: #020202; text-decoration: none;">
+											Take your summer collection to the next level with all-new Hayden LA, Hayden Plus, and Hayden Girls pieces.
+										</a>
+									</td>
+								</tr>
+							</table>
+						</td>
+						<td class="desktop_hide" width="40"></td>
 					</tr>
 					<tr class="height_40" height="40"></tr>
 					<tr>
